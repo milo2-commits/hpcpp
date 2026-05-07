@@ -222,4 +222,18 @@ int main() {
     }
 
     return 0;
-}
+}// openmp command= -fopenmp
+
+// g++ 4_parallel_quicksort.cpp -fopenmp -o quick
+// quick
+
+//g++ 2_parallel_bubble_merge.cpp -fopenmp -o par_bub
+//par_bub
+
+// # Compile and run parallel quicksort
+// g++ 4_parallel_quicksort.cpp -fopenmp -o quick
+// ./quick
+
+// # Compile and run parallel bubble merge
+// g++ 2_parallel_bubble_merge.cpp -fopenmp -o par_bub
+// ./par_bub
