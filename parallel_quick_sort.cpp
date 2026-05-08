@@ -222,7 +222,27 @@ int main() {
     }
 
     return 0;
-}// openmp command= -fopenmp
+}
+# Open Terminal
+Ctrl + Alt + T
+
+# Open Gedit
+gedit bfs_dfs.cpp
+
+# Install g++ Compiler
+sudo apt install g++
+
+# Install OpenMP Support
+sudo apt install libomp-dev
+
+# Compile the Code
+g++ bfs_dfs.cpp -fopenmp -o output
+
+# Run the Program
+./output
+
+
+// openmp command= -fopenmp
 
 // g++ 4_parallel_quicksort.cpp -fopenmp -o quick
 // quick
